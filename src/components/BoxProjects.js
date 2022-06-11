@@ -16,13 +16,7 @@ export default function App() {
                 width: 400,
             }}
         >
-            <p>Java</p>
-            <p>HTML / CSS</p>
-            <p>C# / Windows Forms</p>
-            <p>Linux</p>
-            <p>MySQL / Datenbanken entwerfen</p>
-            <p>Arduino</p>
-            <p>Microsoft Office</p>
+
         </BoxProjects>
     )
 }

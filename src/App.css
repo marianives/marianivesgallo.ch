@@ -8,25 +8,37 @@
 
 .portfolio {
   align-self: flex-end;
+  align-self: center;
   text-align: center;
   color: #68b9fd;
   border: 1px solid #68b9fd;
   line-height: 1.4;
   border-radius: 15px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .bild {
+  margin-left: -35rem;
   align-self: flex-end;
-  width: 500;
-  height: 550px;
+  width: 550;
+  height: 600px;
 }
 
 .home {
+  margin-top: 10rem;
+  margin-right: 20rem;
   display: flex;
   flex-direction: row;
   flex-direction: row-reverse;
+  align-content: stretch;
 }
+.div{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 .ausbildung {
   display: flex;
@@ -61,7 +73,6 @@
 }
 
 .titelSP {
-  align-self: center;
   align-self: flex-start;
   align-self: center;
   color: rgb(182, 224, 255);
