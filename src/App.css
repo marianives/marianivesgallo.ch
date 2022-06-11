@@ -17,7 +17,12 @@
   font-size: 1.2rem;
 }
 */
-
+.titlesprachen{
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  }
 .bild {
   justify-self: left;
   max-width: 30%;
@@ -63,9 +68,11 @@
   margin-bottom: 7rem;
 }
 .sprachen{
+  color: deepskyblue ;
   background-color: white;
   border-radius: 10px;
   margin: 10px;
+  font-size: 1.3rem;
 }
 
 .skillsprojects {
