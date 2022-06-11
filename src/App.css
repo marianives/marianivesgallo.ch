@@ -17,12 +17,26 @@
   font-size: 1.2rem;
 }
 */
-.titlesprachen{
+.link{
+  color: deepskyblue;
+  font-size: 1rem;
+}
+.project {
+  margin-top: 8px;
+  color: deepskyblue;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.titlesprachen {
   font-size: 2rem;
   color: white;
   margin-bottom: 1px;
   margin-top: 1px;
-  }
+  font-weight: 900;
+}
+
 .bild {
   justify-self: left;
   max-width: 30%;
@@ -67,8 +81,9 @@
   margin-top: 5rem;
   margin-bottom: 7rem;
 }
-.sprachen{
-  color: deepskyblue ;
+
+.sprachen {
+  color: deepskyblue;
   background-color: white;
   border-radius: 10px;
   margin: 10px;
