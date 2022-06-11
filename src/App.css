@@ -42,13 +42,18 @@
 }
 
 .jahr {
-  color: white;
+  flex: none;
+  color: #E2C9D1;
+  background-color: white;
   font-size: 1.2rem;
+  border-radius: 300px;
 }
 
 .schule {
   font-size: 1.8rem;
-  color: white;
+  color: #E2C9D1;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .titel {
