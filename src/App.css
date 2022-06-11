@@ -1,4 +1,5 @@
 .mntitle {
+  align-self: center;
   text-align: center;
   font-family: 'Cinzel Decorative', cursive;
   font-size: 6rem;
@@ -6,22 +7,25 @@
 }
 
 .portfolio {
+  align-self: flex-end;
   text-align: center;
   color: #68b9fd;
   border: 1px solid #68b9fd;
   line-height: 1.4;
   border-radius: 15px;
-  font-size: 13rem;
+  font-size: 1.3rem;
 }
 
 .bild {
-  width: 600;
-  height: 650px;
+  align-self: flex-end;
+  width: 500;
+  height: 550px;
 }
 
 .home {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .ausbildung {
@@ -51,12 +55,13 @@
   margin-bottom: 3rem;
 }
 
-.skillsprojects{
+.skillsprojects {
   display: flex;
   flex-direction: column;
 }
 
 .titelSP {
+  align-self: center;
   align-self: flex-start;
   align-self: center;
   color: rgb(182, 224, 255);
@@ -65,14 +70,14 @@
   margin-bottom: 7rem;
 }
 
-.boxes{
+.boxes {
   text-align: center;
   align-self: center;
   display: flex;
   flex-direction: row;
 }
 
-.boxsprachen{
+.boxsprachen {
   margin-right: 2rem;
 }
 
@@ -99,12 +104,23 @@
     height: 1px;
   }
 
+  .titel{
+    font-size: 3rem;
+  }
+
+  .home{
+    flex-direction: column;
+  }
+  .titelSP{
+    font-size: 3rem;
+  }
   .mntitle {
     font-size: 4rem;
   }
 
   .portfolio {
     font-size: 10px;
+    align-self: center;
   }
 }
 
