@@ -16,14 +16,14 @@ export default function App() {
                 width: 400,
             }}
         >
-            <p>Java</p>
-            <p>HTML / CSS</p>
-            <p>C# / Windows Forms</p>
-            <p>Linux</p>
-            <p>MySQL / Datenbanken entwerfen</p>
-            <p>Arduino</p>
-            <p>Microsoft Office</p>
-            <p>React.js</p>
+            <p className='sprachen'>Java</p>
+            <p className='sprachen'>HTML / CSS</p>
+            <p className='sprachen'>C# / Windows Forms</p>
+            <p className='sprachen'>Linux</p>
+            <p className='sprachen'>MySQL / Datenbanken entwerfen</p>
+            <p className='sprachen'>Arduino</p>
+            <p className='sprachen'>Microsoft Office</p>
+            <p className='sprachen'>React.js</p>
         </BoxSprachen>
     )
 }
