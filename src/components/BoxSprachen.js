@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function BoxSprachen({ children, ...props }) {
     return <div {...props}>{children}</div>
 }
@@ -16,6 +17,7 @@ export default function App() {
                 width: 400,
             }}
         >
+            <p className='titlesprachen'>Skills</p>
             <p className='sprachen'>Java</p>
             <p className='sprachen'>HTML / CSS</p>
             <p className='sprachen'>C# / Windows Forms</p>
@@ -24,6 +26,7 @@ export default function App() {
             <p className='sprachen'>Arduino</p>
             <p className='sprachen'>Microsoft Office</p>
             <p className='sprachen'>React.js</p>
+            <p className='sprachen'>Algorithmen entwerfen</p>
         </BoxSprachen>
     )
 }
