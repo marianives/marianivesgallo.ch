@@ -1,11 +1,11 @@
 .mntitle {
-  align-self: center;
   text-align: center;
   font-family: 'Cinzel Decorative', cursive;
   font-size: 6rem;
   color: #ca99a9;
 }
 
+/*
 .portfolio {
   align-self: flex-end;
   align-self: center;
@@ -16,29 +16,20 @@
   border-radius: 15px;
   font-size: 1.2rem;
 }
+*/
 
 .bild {
-  margin-left: -35rem;
-  align-self: flex-end;
-  width: 550;
-  height: 600px;
+  justify-self: left;
+  max-width: 30%;
+  height: auto;
 }
 
 .home {
-  margin-top: 10rem;
-  margin-right: 20rem;
+  justify-content: center;
   display: flex;
-  flex-direction: row;
-  flex-direction: row-reverse;
-  align-content: stretch;
-}
-.div{
   align-items: center;
-  display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
 }
-
-
 
 .ausbildung {
   display: flex;
@@ -115,16 +106,18 @@
     height: 1px;
   }
 
-  .titel{
+  .titel {
     font-size: 3rem;
   }
 
-  .home{
+  .home {
     flex-direction: column;
   }
-  .titelSP{
+
+  .titelSP {
     font-size: 3rem;
   }
+
   .mntitle {
     font-size: 4rem;
   }
