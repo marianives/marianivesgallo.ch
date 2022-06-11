@@ -1,13 +1,15 @@
 .mntitle {
+  margin-top: 12rem;
+  margin-left: 7rem;
   text-align: center;
   font-family: 'Cinzel Decorative', cursive;
   font-size: 6rem;
-  color: black;
-  grid-column: 2/3;
-  grid-row: 1/2;
+  color: #ca99a9;
 }
 
 .portfolio {
+  align-self: flex-end;
+  float: right;
   text-align: center;
   color: #68b9fd;
   background-color: white;
@@ -15,28 +17,24 @@
   line-height: 1.4;
   border-radius: 15px;
   font-size: 1.3rem;
-  grid-column: 2;
-  grid-row: 2/4;
 }
 
-
 .bild {
-  left: 1px;
-  grid-column: 1;
-  grid-row: 1/4 ;
+  float: left;
   width: 600;
   height: 650px;
 }
 
 .home {
-  display: grid;
-  grid-template-columns: 35% 65%;
-  grid-template-rows: 45% 50%;
-  position: relative;
-  flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row;
 }
 
 .ausbildung {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
   margin-top: 8rem;
   margin-bottom: 10rem;
   color: #E2C9D1;
@@ -59,12 +57,48 @@
   margin-bottom: 7rem;
 }
 
+.skillsprojects{
+  display: flex;
+  flex-direction: column;
+}
+
 .titelSP {
+  align-self: flex-start;
+  align-self: center;
   color: rgb(182, 224, 255);
   font-size: 4rem;
   margin-top: 5rem;
   margin-bottom: 7rem;
 }
+
+.boxes{
+  text-align: center;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex: none;
+  flex-direction: row;
+}
+
+.boxsprachen{
+  margin-right: 2rem;
+}
+
+@media screen and (max-width: 420px) {
+  .bild {
+    width: 1px;
+    height: 1px;
+  }
+
+  .mntitle {
+    font-size: 20px;
+  }
+
+  .portfolio {
+    font-size: 10px;
+  }
+}
+
 
 
 @media screen and (max-width: 800px) {
@@ -76,6 +110,10 @@
   .mntitle {
     font-size: 4rem;
   }
+
+  .portfolio {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -85,68 +123,14 @@
   }
 
   .mntitle {
-    font-size: 50px;
-  }
-}
-
-.App-header {
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-
-} 
-
-
-/*
------
------
-
-------
------
-
------
------
-*/
-
-
-/*
-
-
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-/*
-
-
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    margin-left: none;
+    font-size: 1rem;
+    align-self: center;
   }
 
-  to {
-    transform: rotate(360deg);
+  .portfolio {
+    margin-left: 0px;
+    font-size: 10px;
+    align-self: center;
   }
 }
-
-
-*/

@@ -23,6 +23,7 @@ export default function App() {
             <p>MySQL / Datenbanken entwerfen</p>
             <p>Arduino</p>
             <p>Microsoft Office</p>
+            <p>React.js</p>
         </BoxSprachen>
     )
 }
