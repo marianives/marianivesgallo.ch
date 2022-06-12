@@ -41,6 +41,7 @@
   justify-self: left;
   max-width: 30%;
   height: auto;
+  border-radius: 30px;
 }
 
 .home {

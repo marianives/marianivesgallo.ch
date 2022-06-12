@@ -14,6 +14,7 @@ export default function App() {
                 minHeight: 150,
                 padding: 12,
                 width: 400,
+                
             }}
         >
 
