@@ -69,6 +69,21 @@
   color: #E2C9D1;
 }
 
+.bildone{
+  max-width: 20%;
+  height: auto;
+}
+
+.bildtwo{
+  max-width: 24%;
+  height: auto;
+}
+
+.bildthree{
+  max-width: 27%;
+  height: auto;
+}
+
 .jahr {
   flex: none;
   color: #E2C9D1;
