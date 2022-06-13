@@ -136,6 +136,7 @@
 }
 
 .boxsprachen {
+  margin-right: 3rem;
 }
 
 @media screen and (max-width: 420px) {
@@ -159,6 +160,7 @@
   .home {
     margin-top: 6rem;
   }
+
   .bild {
     width: 1px;
     height: 1px;
@@ -185,11 +187,12 @@
     align-self: center;
   }
 
-  .boxes{
-    flex-direction: column ;
+  .boxes {
+    flex-direction: column;
   }
 
-  .boxsprachen{
+  .boxsprachen {
+    margin-right: 0px;
     margin-bottom: 3rem;
   }
 }
