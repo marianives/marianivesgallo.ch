@@ -28,7 +28,15 @@
   border-radius: 10px;
   font-size: 1.2rem;
 }
-
+.aboutme{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+}
+/*
+.intouch{
+  background-image: url("background.png");
+}*/
 .titlesprachen {
   font-size: 2rem;
   color: white;
@@ -77,6 +85,7 @@
 }
 
 .titel {
+  align-self: center;
   color: #E2C9D1;
   font-size: 4rem;
   margin-top: 5rem;
