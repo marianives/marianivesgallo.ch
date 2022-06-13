@@ -36,10 +36,6 @@
   margin-top: 10rem;
 }
 
-/*
-.intouch{
-  background-image: url("background.png");
-}*/
 .titlesprachen {
   font-size: 2rem;
   color: white;
@@ -140,7 +136,6 @@
 }
 
 .boxsprachen {
-  margin-right: 2rem;
 }
 
 @media screen and (max-width: 420px) {
@@ -188,6 +183,14 @@
   .portfolio {
     font-size: 10px;
     align-self: center;
+  }
+
+  .boxes{
+    flex-direction: column ;
+  }
+
+  .boxsprachen{
+    margin-bottom: 3rem;
   }
 }
 
