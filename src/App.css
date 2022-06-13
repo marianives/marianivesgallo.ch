@@ -17,10 +17,11 @@
   font-size: 1.2rem;
 }
 */
-.link{
+.link {
   color: deepskyblue;
   font-size: 1rem;
 }
+
 .project {
   margin-top: 8px;
   color: deepskyblue;
@@ -28,11 +29,13 @@
   border-radius: 10px;
   font-size: 1.2rem;
 }
-.aboutme{
+
+.aboutme {
   display: flex;
   flex-direction: column;
   margin-top: 10rem;
 }
+
 /*
 .intouch{
   background-image: url("background.png");
@@ -69,17 +72,17 @@
   color: #E2C9D1;
 }
 
-.bildone{
+.bildone {
   max-width: 20%;
   height: auto;
 }
 
-.bildtwo{
+.bildtwo {
   max-width: 24%;
   height: auto;
 }
 
-.bildthree{
+.bildthree {
   max-width: 27%;
   height: auto;
 }
@@ -158,6 +161,9 @@
 
 
 @media screen and (max-width: 800px) {
+  .home {
+    margin-top: 6rem;
+  }
   .bild {
     width: 1px;
     height: 1px;
