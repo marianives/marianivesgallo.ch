@@ -12,9 +12,9 @@ export default function App() {
                 backgroundColor: 'rgb(226, 242, 255)',
                 color: 'black',
                 borderRadius: 15,
-                minHeight: 150,
+                minHeight: 100,
                 padding: 12,
-                width: 400,
+                width: 250,
 
             }}
         >
