@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function BoxProjects({ children, ...props }) {
     return <div {...props}>{children}</div>
 }
@@ -14,20 +15,20 @@ export default function App() {
                 minHeight: 150,
                 padding: 12,
                 width: 400,
-                
+
             }}
         >
 
             <h1 className='titlesprachen'>Projects</h1>
             <p className='project'>
-                Gerne können Sie meine wichtigsten Portfolios<br />
-                &#40;8 insgesamt&#41; des Lernateliers in dieser Sammlung ansehen: <br />
-                <a href='https://portfolio.bbbaden.ch/view/view.php?t=e15PZfdOlrnyR76V4bkN' className='link' target="_blank" rel="noreferrer">
-                    Portfolios Mahara</a>
+                Portfolios Lernatelier:
+                <a href='https://portfolio.bbbaden.ch/view/view.php?t=uiaHDgd4oy08cjf7VYEw' className='link' target="_blank" rel="noreferrer">
+                    <span class="iconify" data-icon="emojione-v1:document-with-text"></span><script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script></a>
             </p>
             <p className='project'>
-                Meine Projekte, wie diese Website, können Sie auf GitHub finden: <br />
-                <a href='https://github.com/marianives?tab=repositories' className='link' target="_blank" rel="noreferrer">GitHub Profile</a>
+                GitHub Profile:<br />
+                <a href='https://github.com/marianives?tab=repositories' className='link' target="_blank" rel="noreferrer"><span class="iconify" data-icon="akar-icons:github-fill"></span></a>
             </p>
 
             <p className='project'>
