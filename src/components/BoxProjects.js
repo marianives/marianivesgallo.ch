@@ -24,7 +24,7 @@ export default function App() {
                 Portfolios Lernatelier:
                 <a href='https://portfolio.bbbaden.ch/view/view.php?t=uiaHDgd4oy08cjf7VYEw' className='link' target="_blank" rel="noreferrer">
                     <span class="iconify" data-icon="emojione-v1:document-with-text"></span><script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script></a>
+                    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script></a>
             </p>
             <p className='project'>
                 GitHub Profile:<br />
@@ -32,8 +32,8 @@ export default function App() {
             </p>
 
             <p className='project'>
-                In meiner Freizeit nehme ich an Online-Kursen teil und vertiefe mich mit den neugelernten Programmiersprachen oder lerne neue kennen: <br />
-                <a href='https://open.hpi.de/courses?q=&channel=&lang=&topic=Programming&level=' className='link' target="_blank" rel="noreferrer">Online Selbstlernkurse</a>
+                Freizeit Selbstlernstudium: <br />
+                <a href='https://open.hpi.de/courses?q=&channel=&lang=&topic=Programming&level=' className='link' target="_blank" rel="noreferrer"> <span class="iconify" data-icon="emojione-v1:document-with-text"></span></a>
             </p>
         </BoxProjects>
 
