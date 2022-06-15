@@ -310,6 +310,7 @@
   }
 
   .bild {
+    max-width: 50%;
     margin-top: 12rem;
     margin-bottom: 8rem;
     border-radius: 5px;
