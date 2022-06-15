@@ -135,5 +135,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@iconify/icons-line-md": "^1.2.8",
+    "@iconify/react": "^3.2.2"
   }
 }

@@ -8,23 +8,25 @@ const Aboutme = () => {
     <div className='aboutme'>
       <h1 className='titelaboutme'>About me</h1>
       <div className='hobby'>
-        <h2 className='freizeit'>
-          Freizeit:
-        </h2>
-        <p>
-          Ballet - Seit 14 Jahren
-        </p>
-        <p>
-          Hip-Hop - Seit 9 Jahren
-        </p>
-        <p>
-          Fintess - Seit ein Jahr
-        </p>
+        <div className='hobbys'>
+          <p className='hobbyname'>
+            &#8226; Ballet - Seit 14 Jahren
+          </p>
+          <p className='hobbyname'>
+            &#8226;Hip-Hop - Seit 9 Jahren
+          </p>
+          <p className='hobbyname'>
+            &#8226;  Fintess - Seit ein Jahr
+          </p>
+        </div>
+
       </div>
       <div className='images'>
+
         <img src={ballet} alt="ballet" className='bildone'></img>
         <img src={hiphop} alt="hiphop" className='bildtwo'></img>
         <img src={gym} alt="gym" className='bildthree'></img>
+
       </div>
     </div>
   )

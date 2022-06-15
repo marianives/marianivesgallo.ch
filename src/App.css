@@ -27,14 +27,16 @@
 .aboutme {
   display: flex;
   flex-direction: column;
-  margin-top: 10rem;
+  align-items: center;
+  margin-top: 9rem;
 }
 
 .freizeit {
-  
+  font-size: 2rem;
 }
 
 .images {
+  align-items: center;
   display: flex;
   flex-direction: row;
 }
@@ -115,12 +117,43 @@
   margin-bottom: 7rem;
 }
 
+.titelgit{
+  align-self: center;
+  color: #E2C9D1;
+  font-size: 4rem;
+  margin-top: 10rem;
+  margin-bottom: none;
+}
+
+.hobby {
+  color: #EEDEE3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobbyname {
+  background-color: #EEDEE3;
+  color: white;
+  padding: 7px;
+  border-radius: 20px;
+  margin: 4rem;
+  margin-bottom: none;
+  margin-top: none;
+  font-size: 1.5rem;
+  font-style: bold;
+}
+
+.hobbys {
+  display: flex;
+  flex-direction: row;
+}
 
 .titelaboutme {
   align-self: center;
   color: #E2C9D1;
   font-size: 4rem;
-  margin-top: 5rem;
+  margin-top: 0.1rem;
   margin-bottom: 3rem;
 }
 
@@ -159,6 +192,59 @@
   margin-right: 3rem;
 }
 
+.linkedin {
+  font-size: 8rem;
+  margin-right: 6rem;
+  color: pink;
+  text-decoration: none;
+
+}
+
+.linkedin:hover {
+  color: blue;
+  text-decoration: none;
+
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.email {
+  font-size: 9rem;
+  margin-right: 6rem;
+  color: pink;
+  text-decoration: none;
+
+}
+
+.email:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.bewerbung {
+  color: pink;
+  font-size: 8rem;
+  text-decoration: none;
+
+}
+
+.bewerbung:hover {
+  color: yellow;
+  text-decoration: none;
+
+}
+
+.intouch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 420px) {
   .bild {
     width: 1px;
@@ -185,7 +271,12 @@
   .home {
     margin-top: 6rem;
   }
-
+  .linkedin{
+    margin-right: 1rem;
+  }
+.email{
+  margin-right: 1rem;
+}
   .bild {
     width: 1px;
     height: 1px;
@@ -219,9 +310,11 @@
 
   .boxes {
     flex-direction: column;
+    align-items: center;
   }
 
   .boxsprachen {
+    align-self: center;
     margin-right: 0px;
     margin-bottom: 3rem;
   }
