@@ -5,18 +5,6 @@
   color: #ca99a9;
 }
 
-/*
-.portfolio {
-  align-self: flex-end;
-  align-self: center;
-  text-align: center;
-  color: #68b9fd;
-  border: 1px solid #68b9fd;
-  line-height: 1.4;
-  border-radius: 15px;
-  font-size: 1.2rem;
-}
-*/
 .link {
   color: deepskyblue;
   font-size: 3.2rem;
@@ -38,7 +26,7 @@
 
 .titlesprachen {
   font-size: 2rem;
-  color: white;
+  color: rgb(226, 242, 255);
   margin-bottom: 1px;
   margin-top: 1px;
   font-weight: 900;
@@ -52,6 +40,7 @@
 }
 
 .home {
+  margin-top: 3rem;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -136,6 +125,8 @@
 }
 
 .boxsprachen {
+  border: 3px solid rgb(226, 242, 255);
+  border-radius: 20px;
   margin-right: 3rem;
 }
 

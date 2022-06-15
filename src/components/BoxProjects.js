@@ -24,7 +24,6 @@ export default function App() {
                 Portfolios Lernatelier:<br />
                 <a href='https://portfolio.bbbaden.ch/view/view.php?t=uiaHDgd4oy08cjf7VYEw' className='link' target="_blank" rel="noreferrer">
                     <span class="iconify" data-icon="emojione-v1:document-with-text"></span>
-                    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
                 </a>
             </p>
             <p className='project'>
