@@ -284,6 +284,11 @@
   }
 }
 
+@media screen and (max-width: 1227px) {
+  .titelSP{
+    font-size: 2rem;
+  }
+}
 
 
 @media screen and (max-width: 1227px) {
