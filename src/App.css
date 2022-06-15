@@ -282,6 +282,9 @@
 
 
 @media screen and (max-width: 420px) {
+  .boxx{
+    min-width: 5rem
+  }
   .bild {
     width: 1px;
     height: 1px;
@@ -440,6 +443,9 @@
   .bild {
     width: 1px;
     height: 1px;
+  }
+  .boxx{
+    min-width: 30%;
   }
 
   .mntitle {
