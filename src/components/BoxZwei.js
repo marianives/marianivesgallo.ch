@@ -11,7 +11,7 @@ export default function App() {
                 backgroundColor: '#EEDEE3',
                 borderRadius: 15,
                 minHeight: 150,
-                padding: 12,
+                padding: 6,
                 width: 400,
             }}
         >

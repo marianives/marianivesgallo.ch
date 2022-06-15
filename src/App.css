@@ -19,7 +19,7 @@
 .project {
   text-decoration: none;
   margin-top: 8px;
-  color: deepskyblue;
+  color: #028bd4;
   background-color: white;
   border-radius: 10px;
   font-size: 1.2rem;
@@ -44,7 +44,7 @@
 
 .titlesprachen {
   font-size: 2rem;
-  color: white;
+  color: #028bd4;
   margin-bottom: 1px;
   margin-top: 1px;
   font-weight: 900;
@@ -52,7 +52,7 @@
 
 .titlesprachenn {
   font-size: 2rem;
-  color: rgb(226, 242, 255);
+  color: #028bd4;
   margin-bottom: 1px;
   margin-top: 1px;
   font-weight: 900;
@@ -113,6 +113,7 @@
 
 .titel {
   align-self: center;
+  /* color: #df8399;*/
   color: #df8399;
   font-size: 4rem;
   margin-top: 5rem;
@@ -128,7 +129,7 @@
 }
 
 .hobby {
-  color: #EEDEE3;
+  color: #df8399;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,7 +144,7 @@
 }
 
 .hobbyname {
-  background-color: #EEDEE3;
+  background-color: #e491a4;
   color: white;
   padding: 7px;
   border-radius: 20px;
@@ -152,7 +153,7 @@
 }
 
 .hobbynamehh {
-  background-color: #EEDEE3;
+  background-color: #e491a4;
   color: white;
   padding: 10px;
   border-radius: 20px;
@@ -177,7 +178,7 @@
 
 .sprachen {
   text-decoration: none;
-  color: deepskyblue;
+  color: #028bd4;
   background-color: white;
   border-radius: 10px;
   margin: 10px;
@@ -199,7 +200,7 @@
 
 .titelSP {
   align-self: center;
-  color: rgb(182, 224, 255);
+  color: #028bd4;
   font-size: 4.5rem;
   margin-top: 1rem;
   margin-bottom: 7rem;
@@ -310,8 +311,8 @@
 
   .hobbyname {
     font-size: 1rem;
-  } 
-      
+  }
+
   .titelSP {
     font-size: 2rem;
   }
@@ -368,7 +369,7 @@
     margin-bottom: 3rem;
   }
 
-  .titel{
+  .titel {
     font-size: 6rem;
   }
 

@@ -13,7 +13,7 @@ export default function App() {
                 color: 'black',
                 borderRadius: 15,
                 minHeight: 100,
-                padding: 12,
+                padding: 7,
                 width: 250,
 
             }}
