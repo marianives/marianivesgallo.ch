@@ -84,10 +84,11 @@
 }
 
 .bildone {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   align-self: center;
   margin-top: 2rem;
+  margin-left: 4rem;
 }
 
 
@@ -150,15 +151,15 @@
   border-radius: 20px;
   font-size: 1.3rem;
   font-style: bold;
+  ;
 }
 
 .hobbynamehh {
   background-color: #e491a4;
   color: white;
-  padding: 10px;
+  padding: 8px;
   border-radius: 20px;
   font-size: 1.2rem;
-  font-style: bold;
   margin-right: 4rem;
   margin-left: 4rem;
 }
@@ -170,7 +171,7 @@
 
 .titelaboutme {
   align-self: center;
-  color: #E2C9D1;
+  color: #df8399;
   font-size: 4.5rem;
   margin-top: 0.1rem;
   margin-bottom: 3rem;
@@ -185,6 +186,7 @@
   padding-left: 5px;
   font-size: 1.3rem;
 }
+
 
 .sprachen:hover {
   text-decoration: none;

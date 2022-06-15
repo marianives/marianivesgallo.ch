@@ -15,7 +15,7 @@ const Aboutme = () => {
             &#8226;HipHop - Seit 9 Jahren
           </p>
           <p className='hobbyname'>
-            &#8226;  Fintess - Seit einem Jahr
+            &#8226;  Fitness - Seit einem Jahr
           </p>
         </div>
       </div>
