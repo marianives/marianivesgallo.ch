@@ -1,13 +1,12 @@
 import React from 'react'
-import ballet from "../images/balletcolor.png"
-import hiphop from "../images/hiphop.jpg"
-import gym from "../images/gym.jpg"
+import background from "../images/backgroundaboutme.png"
+
 
 const Aboutme = () => {
   return (
-    <div className='aboutme'>
+    <div className='aboutme' >
       <h1 className='titelaboutme'>About me</h1>
-      <div className='hobby'>     
+      <div className='hobby'>
         <div className='hobbys'>
           <p className='hobbyname'>
             &#8226; Ballet - Seit 14 Jahren
@@ -21,9 +20,7 @@ const Aboutme = () => {
         </div>
       </div>
       <div className='images'>
-        <img src={ballet} alt="ballet" className='bildone'></img>
-        <img src={hiphop} alt="hiphop" className='bildtwo'></img>
-        <img src={gym} alt="gym" className='bildthree'></img>
+        <img src={background} alt="hobbys" className='bildone'></img>
       </div>
     </div>
   )
