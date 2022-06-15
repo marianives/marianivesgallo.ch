@@ -10,6 +10,11 @@
   font-size: 3.2rem;
 }
 
+.boxdiv{
+  display: flex;
+  flex-direction: row;
+}
+
 .project {
   margin-top: 8px;
   color: deepskyblue;
@@ -142,6 +147,11 @@
 
   .portfolio {
     font-size: 10px;
+  }
+
+  .boxdiv{
+    display: flex;
+    flex-direction: column;
   }
 }
 

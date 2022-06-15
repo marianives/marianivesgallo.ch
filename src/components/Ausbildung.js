@@ -7,14 +7,16 @@ const Ausbildung = () => {
     return (
         <div className='ausbildung'>
             <h1 className='titel'>Ausbildung</h1>
-            <BoxEins>
-            </BoxEins>
-            <h1> |</h1>
-            <BoxZwei>
-            </BoxZwei>
-            <h1> |</h1>
-            <BoxDrei>
-            </BoxDrei>
+            <div className='boxdiv'>
+                <BoxEins>
+                </BoxEins>
+                <h1> |</h1>
+                <BoxZwei>
+                </BoxZwei>
+                <h1> |</h1>
+                <BoxDrei>
+                </BoxDrei>
+            </div>
         </div>
     )
 }
