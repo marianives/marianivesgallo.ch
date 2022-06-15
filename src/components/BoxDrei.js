@@ -9,11 +9,10 @@ export default function App() {
         <BoxDrei
             style={{
                 backgroundColor: '#EEDEE3',
-                color: 'black',
                 borderRadius: 15,
-                height: 160,
-                padding: 10,
-                width: 200,
+                minHeight: 150,
+                padding: 12,
+                width: 400,
             }}
         >
             <p class="schule">Primarschule Muhen</p>
