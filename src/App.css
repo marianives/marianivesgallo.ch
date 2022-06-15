@@ -304,7 +304,7 @@
   .hobbynamehh {
     font-size: 1rem;
     margin-right: 5px;
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .hobbyname {
@@ -327,7 +327,7 @@
 @media screen and (max-width: 800px) {
   .hobbynamehh {
     font-size: 1.8rem;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-left: 5px;
   }
 
@@ -338,7 +338,7 @@
 
 @media screen and (max-width: 1227px) {
   .hobbynamehh {
-    margin-right: px;
+    margin-right: 10px;
     margin-left: 10px;
   }
 
