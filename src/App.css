@@ -149,11 +149,13 @@
   color: white;
   padding: 7px;
   border-radius: 20px;
-  margin: 4rem;
-  margin-bottom: none;
-  margin-top: none;
   font-size: 1.5rem;
   font-style: bold;
+}
+
+.hobbynamehh {
+  margin-right: 4rem;
+  margin-left: 4rem;
 }
 
 .hobbys {
@@ -286,35 +288,46 @@
   .bewerbung {
     font-size: 3rem;
   }
-}
 
-@media screen and (max-width: 650px) {
-  .hobbyname {
-    font-size: 0.7rem;
-    margin-right: 5px;
-    margin-left: 10px;
-  }
-}
-
-@media screen and (max-width: 1227px) {
-  .titelSP {
-    font-size: 2rem;
-  }
-
-  .hobbyname {
+  .hobbynamehh {
     font-size: 1rem;
     margin-right: 5px;
     margin-left: 10px;
   }
+}
 
-  .mntitle {
-    margin-top: 4rem;
+@media screen and (max-width: 650px) {
+  .hobbynamehh {
+    font-size: 0.7rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .hobbyname {
+    margin-right: 10px;
+    margin-left: 5px;
   }
 }
 
 @media screen and (max-width: 1227px) {
+  .hobbyname {
+    margin-right: px;
+    margin-left: 10px;
+  }
+
   .home {
     margin-top: 6rem;
+  }
+
+  .titelSP {
+    font-size: 2rem;
+  }
+
+
+  .mntitle {
+    margin-top: 4rem;
   }
 
   .boxeinsdiv {

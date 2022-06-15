@@ -12,7 +12,7 @@ const Aboutme = () => {
           <p className='hobbyname'>
             &#8226; Ballet - Seit 14 Jahren
           </p>
-          <p className='hobbyname'>
+          <p className='hobbynamehh'>
             &#8226;HipHop - Seit 9 Jahren
           </p>
           <p className='hobbyname'>
@@ -28,5 +28,4 @@ const Aboutme = () => {
     </div>
   )
 }
-
 export default Aboutme
