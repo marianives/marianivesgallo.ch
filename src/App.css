@@ -36,12 +36,20 @@
 }
 
 .images {
-  align-items: center;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .titlesprachen {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  font-weight: 900;
+}
+
+.titlesprachenn {
   font-size: 2rem;
   color: rgb(226, 242, 255);
   margin-bottom: 1px;
@@ -117,7 +125,7 @@
   margin-bottom: 7rem;
 }
 
-.titelgit{
+.titelgit {
   align-self: center;
   color: #E2C9D1;
   font-size: 4rem;
@@ -263,13 +271,15 @@
     flex-direction: column;
   }
 
-  .linkedin{
+  .linkedin {
     font-size: 3rem;
   }
-  .email{
+
+  .email {
     font-size: 3rem;
   }
-  .bewerbung{
+
+  .bewerbung {
     font-size: 3rem;
   }
 }
@@ -280,12 +290,21 @@
   .home {
     margin-top: 6rem;
   }
-  .linkedin{
+  .boxeinsdiv{
+    margin-bottom: 3rem;
+  }
+  .strich {
+    font-size: 1px;
+  }
+
+  .linkedin {
     margin-right: 1rem;
   }
-.email{
-  margin-right: 1rem;
-}
+
+  .email {
+    margin-right: 1rem;
+  }
+
   .bild {
     width: 1px;
     height: 1px;

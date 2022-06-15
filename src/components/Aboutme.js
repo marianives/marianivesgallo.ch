@@ -6,8 +6,11 @@ import gym from "../images/gym.jpg"
 const Aboutme = () => {
   return (
     <div className='aboutme'>
+
       <h1 className='titelaboutme'>About me</h1>
+
       <div className='hobby'>
+        
         <div className='hobbys'>
           <p className='hobbyname'>
             &#8226; Ballet - Seit 14 Jahren

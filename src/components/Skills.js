@@ -8,17 +8,10 @@ const Skills = () => {
       <h1 className='titelSP'>Skills and Projects</h1>
       <div className='boxes'>
         <div className='boxsprachen'>
-          <p className='titlesprachen'>Skills</p>
-          <p className='sprachen'>Java
-            <span class="iconify" data-icon="logos:java"></span>
-          </p>
-          <p className='sprachen'>HTML / CSS
-            <span class="iconify" data-icon="ph:file-html-light"></span>
-            <span class="iconify" data-icon="ph:file-css-light"></span>
-          </p>
-          <p className='sprachen'>C# / Windows Forms
-            <span class="iconify" data-icon="logos:c-sharp"></span>
-          </p>
+          <p className='titlesprachenn'>Skills</p>
+          <p className='sprachen'>Java</p>
+          <p className='sprachen'>HTML / CSS</p>
+          <p className='sprachen'>C# / Windows Forms</p>
           <p className='sprachen'>Linux</p>
           <p className='sprachen'>MySQL / Datenbanken entwerfen</p>
           <p className='sprachen'>Arduino</p>

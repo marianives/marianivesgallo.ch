@@ -8,7 +8,7 @@ const Ausbildung = () => {
         <div className='ausbildung'>
             <h1 className='titel'>Ausbildung</h1>
             <div className='boxdiv'>
-                <BoxEins>
+                <BoxEins className='boxeinsdiv'>
                 </BoxEins>
                 <h1 className='strich'> |</h1>
                 <BoxZwei>
