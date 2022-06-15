@@ -301,7 +301,7 @@
     max-width: 90%;
     height: auto;
     align-self: center;
-    margin-top: 3rem;
+    margin-top: 7rem;
     margin-left: 12px;
   }
 
@@ -311,12 +311,12 @@
 
   .bild {
     margin-top: 12rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
+    border-radius: 5px;
   }
 
   .boxx {
     min-width: 10px;
-
   }
 
   .home {
