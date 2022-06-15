@@ -6,9 +6,9 @@ import gym from "../images/gym.jpg"
 const Aboutme = () => {
   return (
     <div className='aboutme'>
-      <h1 className='titel'>About me</h1>
+      <h1 className='titelaboutme'>About me</h1>
       <div className='hobby'>
-        <h2>
+        <h2 className='freizeit'>
           Freizeit:
         </h2>
         <p>
@@ -21,10 +21,10 @@ const Aboutme = () => {
           Fintess - Seit ein Jahr
         </p>
       </div>
-      <div>
+      <div className='images'>
         <img src={ballet} alt="ballet" className='bildone'></img>
         <img src={hiphop} alt="hiphop" className='bildtwo'></img>
-        <img src={gym} alt="gyn" className='bildthree'></img>
+        <img src={gym} alt="gym" className='bildthree'></img>
       </div>
     </div>
   )

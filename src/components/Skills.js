@@ -2,8 +2,6 @@ import React from 'react'
 import BoxProjects from './BoxProjects'
 
 
-
-
 const Skills = () => {
   return (
     <div className='skillsprojects'>
