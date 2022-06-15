@@ -10,10 +10,10 @@ const Ausbildung = () => {
             <div className='boxdiv'>
                 <BoxEins>
                 </BoxEins>
-                <h1> |</h1>
+                <h1 className='strich'> |</h1>
                 <BoxZwei>
                 </BoxZwei>
-                <h1> |</h1>
+                <h1 className='strich'> |</h1>
                 <BoxDrei>
                 </BoxDrei>
             </div>
