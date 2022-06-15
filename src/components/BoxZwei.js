@@ -6,17 +6,11 @@ function BoxZwei({ children, ...props }) {
 
 export default function App() {
     return (
-        <BoxZwei
-            style={{
-                backgroundColor: '#EEDEE3',
-                borderRadius: 15,
-                minHeight: 150,
-                padding: 6,
-                width: 400,
-            }}
-        >
+        <BoxZwei>
+            <div className='boxx'>
             <p class="schule">Bezirksschule Kölliken</p>
             <p class="jahr">2017-2020</p>
+            </div>
         </BoxZwei>
     )
 }
