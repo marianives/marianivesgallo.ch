@@ -311,7 +311,7 @@
 
   .bild {
     margin-top: 12rem;
-    margin-bottom: 5px;
+    margin-bottom: 10rem;
   }
 
   .boxx {
@@ -338,7 +338,8 @@
   }
 
   .titel {
-    font-size: 6rem;
+    font-size: 3.6rem;
+    margin-top: 1rem;
   }
 
   .strich {
@@ -360,12 +361,6 @@
     display: flex;
     flex-direction: column;
   }
-
-  .titel {
-    font-size: 3rem;
-    margin-top: 1rem;
-  }
-
 
   .home {
     flex-direction: column;
@@ -392,7 +387,7 @@
   }
 
   .titelSkillsprojects {
-    font-size: 3rem;
+    font-size: 2.5rem;
     word-wrap: break-word;
   }
 
@@ -401,10 +396,13 @@
     word-wrap: break-word;
   }
 
-  .linkedin, .email, .bewerbung{
+  .linkedin,
+  .email,
+  .bewerbung {
     font-size: 2.8rem;
   }
-  .socials{
+
+  .socials {
     margin-top: 6rem;
     margin-bottom: 12rem;
   }
