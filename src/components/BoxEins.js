@@ -9,7 +9,7 @@ export default function App() {
     <BoxEins
       style={{
         backgroundColor: '#EEDEE3',
-        color: 'black',
+        color: 'ca99a9',
         borderRadius: 15,
         minHeight: 200,
         padding: 12,
