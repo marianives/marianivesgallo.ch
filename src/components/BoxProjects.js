@@ -10,7 +10,6 @@ export default function App() {
         <BoxProjects
             style={{
                 backgroundColor: 'rgb(226, 242, 255)',
-                color: 'black',
                 borderRadius: 15,
                 minHeight: 100,
                 padding: 7,

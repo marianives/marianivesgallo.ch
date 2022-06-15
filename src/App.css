@@ -200,7 +200,7 @@
   flex-direction: column;
 }
 
-.titelSP {
+.titelSkillsprojects {
   align-self: center;
   color: #028ad4b8;
   font-size: 4.5rem;
@@ -282,46 +282,6 @@
 }
 
 
-@media screen and (max-width: 420px) {
-  .boxx {
-    min-width: 5rem
-  }
-
-  .titelSP {
-    font-size: 4px;
-  }
-
-  .bild {
-    width: 1px;
-    height: 1px;
-  }
-
-  .mntitle {
-    font-size: 20px;
-  }
-
-  .portfolio {
-    font-size: 10px;
-  }
-
-  .boxdiv {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .linkedin {
-    font-size: 3rem;
-  }
-
-  .email {
-    font-size: 3rem;
-  }
-
-  .bewerbung {
-    font-size: 3rem;
-  }
-
-}
 
 
 @media screen and (max-width: 935px) {
@@ -330,7 +290,6 @@
     margin-bottom: 2rem;
     margin-left: 0;
     margin-right: 0;
-
   }
 
   .hobbyname {
@@ -356,8 +315,8 @@
   }
 
   .boxx {
-    min-width: 200px;
-    max-width: 5px;
+    min-width: 10px;
+
   }
 
   .home {
@@ -366,7 +325,7 @@
 
   .schule {
     word-wrap: break-word;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding: 0px;
   }
 
@@ -426,5 +385,27 @@
     align-self: center;
     margin-right: 0px;
     margin-bottom: 3rem;
+  }
+
+  .sprachen {
+    font-size: 1.2rem;
+  }
+
+  .titelSkillsprojects {
+    font-size: 3rem;
+    word-wrap: break-word;
+  }
+
+  .titelgit {
+    font-size: 3rem;
+    word-wrap: break-word;
+  }
+
+  .linkedin, .email, .bewerbung{
+    font-size: 2.8rem;
+  }
+  .socials{
+    margin-top: 6rem;
+    margin-bottom: 12rem;
   }
 }
