@@ -85,16 +85,20 @@
 .bildone {
   max-width: 20%;
   height: auto;
+  align-self: center;
 }
 
 .bildtwo {
   max-width: 24%;
   height: auto;
+  align-self: center;
+
 }
 
 .bildthree {
   max-width: 27%;
   height: auto;
+  align-self: center;
 }
 
 .jahr {
@@ -284,20 +288,39 @@
   }
 }
 
-@media screen and (max-width: 1227px) {
-  .titelSP{
-    font-size: 2rem;
+@media screen and (max-width: 650px) {
+  .hobbyname {
+    font-size: 0.7rem;
+    margin-right: 5px;
+    margin-left: 10px;
   }
 }
 
+@media screen and (max-width: 1227px) {
+  .titelSP {
+    font-size: 2rem;
+  }
+
+  .hobbyname {
+    font-size: 1rem;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+
+  .mntitle {
+    margin-top: 4rem;
+  }
+}
 
 @media screen and (max-width: 1227px) {
   .home {
     margin-top: 6rem;
   }
-  .boxeinsdiv{
+
+  .boxeinsdiv {
     margin-bottom: 3rem;
   }
+
   .strich {
     font-size: 1px;
     margin-top: 0.9rem;
