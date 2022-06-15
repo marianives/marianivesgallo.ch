@@ -171,7 +171,6 @@
 }
 
 .titelSP {
-  align-self: flex-start;
   align-self: center;
   color: rgb(182, 224, 255);
   font-size: 4rem;
@@ -305,9 +304,6 @@
     flex-direction: column;
   }
 
-  .titelSP {
-    font-size: 3rem;
-  }
 
   .mntitle {
     font-size: 4rem;
