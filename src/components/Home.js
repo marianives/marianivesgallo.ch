@@ -1,12 +1,6 @@
 import React from 'react'
 import maria from "../images/bild.png"
 
-/*              <p className='portfolio'>
-                    Informatikerin Applikationsentwicklung   <br />
-                    Alte Kanti Aarau / BBBaden
-                </p>
-                
-*/
 
 const Home = () => {
     return (

@@ -17,6 +17,7 @@
 }
 
 .project {
+  text-decoration: none;
   margin-top: 8px;
   color: deepskyblue;
   background-color: white;
@@ -143,6 +144,14 @@
   align-items: center;
 }
 
+.portfoliolink {
+  text-decoration: none;
+}
+
+.portfoliolink:hover {
+  text-decoration: none;
+}
+
 .hobbyname {
   background-color: #EEDEE3;
   color: white;
@@ -177,15 +186,18 @@
 }
 
 .sprachen {
+  text-decoration: none;
   color: deepskyblue;
   background-color: white;
   border-radius: 10px;
   margin: 10px;
+  padding: 2px;
   font-size: 1.3rem;
 }
 
-.sprachen:hover{
-  color:white;
+.sprachen:hover {
+  text-decoration: none;
+  color: white;
   background-color: rgba(23, 170, 255, 0.575);
   border-radius: 15px;
 }
@@ -305,7 +317,8 @@
     margin-right: 5px;
     margin-left: 10px;
   }
-  .hobbyname{
+
+  .hobbyname {
     font-size: 1rem;
   }
 }
@@ -316,7 +329,8 @@
     margin-right: 2rem;
     margin-left: 2rem;
   }
-  .hobbyname{
+
+  .hobbyname {
     font-size: 0.7rem;
   }
 }
@@ -327,13 +341,14 @@
     margin-right: 10px;
     margin-left: 5px;
   }
-  .hobbyname{
+
+  .hobbyname {
     font-size: 1.8rem;
   }
 }
 
 @media screen and (max-width: 1227px) {
-  .hobbynamehh{
+  .hobbynamehh {
     margin-right: px;
     margin-left: 10px;
   }
