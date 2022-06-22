@@ -9,13 +9,13 @@ const Aboutme = () => {
       <div className='hobby'>
         <div className='hobbys'>
           <p className='hobbyname'>
-            &#8226; Ballet - Seit 14 Jahren
+            Ballet - Seit 14 Jahren
           </p>
           <p className='hobbynamehh'>
-            &#8226;HipHop - Seit 9 Jahren
+            HipHop - Seit 9 Jahren
           </p>
           <p className='hobbyname'>
-            &#8226;  Fitness - Seit einem Jahr
+            Fitness - Seit einem Jahr
           </p>
         </div>
       </div>
