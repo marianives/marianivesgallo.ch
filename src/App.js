@@ -7,14 +7,13 @@ import Getintouch from './components/Getintouch';
 function App() {
   return (
     <div className="App">
-        <Home></Home>
-        <Ausbildung></Ausbildung>
-        <Skills></Skills>
-        <Aboutme></Aboutme>
-        <Getintouch></Getintouch>
+      <Home></Home>
+      <Aboutme></Aboutme>
+      <Ausbildung></Ausbildung>
+      <Skills></Skills>
+      <Getintouch></Getintouch>
     </div>
   );
 }
 
 export default App;
-  
