@@ -251,7 +251,6 @@
 
 .email {
   font-size: 8rem;
-  margin-right: 6rem;
   color: pink;
   text-decoration: none;
 
@@ -404,6 +403,8 @@
   }
 
   .socials {
+    display: flex;
+    align-items: center;
     margin-top: 6rem;
     margin-bottom: 12rem;
   }

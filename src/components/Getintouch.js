@@ -17,9 +17,6 @@ const Getintouch = () => {
                 <p className='email'>
                     <a href='mailto:gallomarianives@gmail.com' className='email'><Icon icon="line-md:email-twotone" /></a>
                 </p>
-                <p className='bewerbung'>
-                    <Icon icon="heroicons-outline:document-download" />
-                </p>
             </div>
 
         </div >
