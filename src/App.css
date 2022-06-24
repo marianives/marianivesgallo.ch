@@ -402,7 +402,17 @@
   .socials {
     display: flex;
     align-items: center;
+    flex-direction: row;
     margin-top: 6rem;
     margin-bottom: 12rem;
+  }
+  .email{
+    font-size: 6rem;
+    margin-right: 5rem;
+  }
+
+  .linkedin{
+    font-size: 5rem;
+    margin-left: 5rem;
   }
 }
