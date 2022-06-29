@@ -187,6 +187,16 @@
   font-size: 1.3rem;
 }
 
+.sprachen2 {
+  text-decoration: none;
+  color: #028bd4;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding-left: 5px;
+  font-size: 1rem;
+}
+
 
 .sprachen:hover {
   text-decoration: none;
