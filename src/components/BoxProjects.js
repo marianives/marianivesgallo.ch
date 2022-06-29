@@ -20,7 +20,7 @@ export default function App() {
 
             <h1 className='titlesprachen'>Projects</h1>
             <p className='project'>
-                <a href='https://portfolio.bbbaden.ch/view/view.php?t=uiaHDgd4oy08cjf7VYEw' className='project' target="_blank" rel="noreferrer">Portfolio Sammlung Lernatelier:<br /></a>
+                <a href='https://portfolio.bbbaden.ch/view/view.php?t=uiaHDgd4oy08cjf7VYEw' className='project' target="_blank" rel="noreferrer">Portfolio Sammlung:<br /></a>
                 <a href='https://portfolio.bbbaden.ch/view/view.php?t=uiaHDgd4oy08cjf7VYEw' className='link' target="_blank" rel="noreferrer">
                     <span class="iconify" data-icon="emojione-v1:document-with-text"></span>
                 </a>
