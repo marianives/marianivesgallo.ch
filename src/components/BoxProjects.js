@@ -26,7 +26,7 @@ export default function App() {
                 </a>
             </p>
             <p className='project'>
-                <a href='https://github.com/marianives?tab=repositories' className='project' target="_blank" rel="noreferrer">GitHub Profile:<br /></a>
+                <a href='https://github.com/marianives?tab=repositories' className='project' target="_blank" rel="noreferrer">GitHub Profile with projects:<br /></a>
                 <a href='https://github.com/marianives?tab=repositories' className='link' target="_blank" rel="noreferrer"><span class="iconify" data-icon="akar-icons:github-fill"></span></a>
             </p>
 
