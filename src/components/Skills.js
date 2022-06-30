@@ -12,6 +12,9 @@ const Skills = () => {
             <a href='https://portfolio.bbbaden.ch/view/view.php?t=uiaHDgd4oy08cjf7VYEw' className='portfoliolink' target="_blank" rel="noreferrer">
               <p className='sprachen'>Java</p>
             </a>
+            <a href='https://portfolio.bbbaden.ch/user/m-gallo-inf20/m-153-datenmodell-entwickeln' className='portfoliolink' target="_blank" rel="noreferrer">
+              <p className='sprachen'>MySQL / Datenbanken</p>
+            </a>
             <a href='https://portfolio.bbbaden.ch/user/m-gallo-inf20/modul-122-swiss-lotto' className='portfoliolink' target="_blank" rel="noreferrer">
               <p className='sprachen'>Powershell</p>
             </a>
@@ -29,10 +32,7 @@ const Skills = () => {
             </a>
             <a href='https://portfolio.bbbaden.ch/user/m-gallo-inf20/bbbaden-rundgang-1' className='portfoliolink' target="_blank" rel="noreferrer">
               <p className='sprachen'>HTML / CSS</p>
-            </a>        
-            <a href='https://portfolio.bbbaden.ch/user/m-gallo-inf20/modul-105-ddl' className='portfoliolink' target="_blank" rel="noreferrer">
-              <p className='sprachen'>MySQL / Datenbanken</p>
-            </a>
+            </a>            
             <p className='sprachen2'>Am lernen: Python, JavaScript, Vertiefung in React</p>
            
             
