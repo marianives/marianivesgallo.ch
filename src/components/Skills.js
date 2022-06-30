@@ -9,7 +9,7 @@ const Skills = () => {
       <div className='boxes'>
         <div className='boxsprachen'>
           <p className='titlesprachenn'>Skills</p>
-            <a href='https://portfolio.bbbaden.ch/view/view.php?t=uiaHDgd4oy08cjf7VYEw' className='portfoliolink' target="_blank" rel="noreferrer">
+            <a href='https://portfolio.bbbaden.ch/view/view.php?t=MvPq8fQFh1zGr4Tmot9j' className='portfoliolink' target="_blank" rel="noreferrer">
               <p className='sprachen'>Java</p>
             </a>
             <a href='https://portfolio.bbbaden.ch/user/m-gallo-inf20/m-153-datenmodell-entwickeln' className='portfoliolink' target="_blank" rel="noreferrer">

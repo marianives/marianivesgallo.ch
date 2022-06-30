@@ -31,7 +31,7 @@ export default function App() {
             </p>
 
             <p className='project'>
-                <a href='https://github.com/marianives?tab=repositories' className='project' target="_blank" rel="noreferrer">Freizeit Selbstlernstudium: <br /></a>
+                <a href='https://open.hpi.de/courses?q=&channel=&lang=&topic=Programming&level=' target="_blank" rel="noreferrer">Freizeit Selbstlernstudium: <br /></a>
                 <a href='https://open.hpi.de/courses?q=&channel=&lang=&topic=Programming&level=' className='link' target="_blank" rel="noreferrer">
                     <span class="iconify" data-icon="twemoji:school"></span>
                 </a>
