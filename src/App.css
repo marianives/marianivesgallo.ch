@@ -295,6 +295,7 @@
 
 @media screen and (max-width: 935px) {
   .hobbynamehh {
+    text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 0;
@@ -302,6 +303,7 @@
   }
 
   .hobbyname {
+    text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
