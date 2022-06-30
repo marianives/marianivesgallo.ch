@@ -33,8 +33,7 @@ const Skills = () => {
             <a href='https://portfolio.bbbaden.ch/user/m-gallo-inf20/modul-105-ddl' className='portfoliolink' target="_blank" rel="noreferrer">
               <p className='sprachen'>MySQL / Datenbanken</p>
             </a>
-            <p className='sprachen2'>Am lernen: Python, JavaScript</p>
-            <p className='sprachen2'>Vertiefung in React</p>
+            <p className='sprachen2'>Am lernen: Python, JavaScript, Vertiefung in React</p>
            
             
         </div>
